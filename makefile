@@ -12,7 +12,7 @@ lint:
 
 
 .PHONY: test
-test: lint
+test:
 	lychee \
 		--max-redirects 0 \
 		--require-https \
