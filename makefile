@@ -22,4 +22,11 @@ test:
 		--max-retries 3 \
 		--retry-wait-time 5 \
 		--user-agent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36' \
+		--header 'Accept=text/html,application/xhtml+xml,application/xml,*/*' \
+		--header 'Accept-Language=en-US,en' \
+		--header 'Sec-Fetch-Site=none' \
+		--header 'Sec-Fetch-Mode=navigate' \
+		--header 'Sec-Fetch-User=?1' \
+		--header 'Sec-Fetch-Dest=document' \
+		--header 'Upgrade-Insecure-Requests=1' \
 		readme.md
